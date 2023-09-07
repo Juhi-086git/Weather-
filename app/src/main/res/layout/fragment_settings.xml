@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/unitTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_unit"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unitTitleTextView"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/unitC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="c"
+            android:text="@string/settings_unit_c" />
+
+        <RadioButton
+            android:id="@+id/unitF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="f"
+            android:text="@string/settings_unit_f" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/selectCityTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginTop="10dp"
+        android:text="@string/settings_select_city"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/citySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectCityTitleTextView"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

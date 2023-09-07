@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="home_title">Temperature</string>
+    <string name="home_today">Today</string>
+    <string name="home_status_cold">Cold</string>
+    <string name="home_status_normal">Normal</string>
+    <string name="home_status_hot">Hot</string>
+    <string name="home_information">Information</string>
+    <string name="home_error">Server communication error. Try again.</string>
+    <string name="home_close">Close</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_unit">Measuring unit</string>
+    <string name="settings_unit_c">Celsius</string>
+    <string name="settings_unit_f">Fahrenheit</string>
+    <string name="settings_select_city">Select city</string>
+
+
+</resources>

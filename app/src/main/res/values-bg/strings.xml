@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Прогноза за време</string>
+    <string name="home_title">Температура</string>
+    <string name="home_today">Днес</string>
+    <string name="home_status_cold">Студено</string>
+    <string name="home_status_normal">Нормално</string>
+    <string name="home_status_hot">Топло</string>
+    <string name="home_information">Информация</string>
+    <string name="home_error">Проблем с комуникацията. Моля опитайте отново.</string>
+    <string name="home_close">Затвори</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_unit">Мерна единица</string>
+    <string name="settings_unit_c">Целзии</string>
+    <string name="settings_unit_f">Фаренхайт</string>
+    <string name="settings_select_city">Изберете град</string>
+</resources>
